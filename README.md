@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
+# Ayushya - Healthcare Medication Intelligence Platform 
 
-## Project info
+Ayushya is a modern healthcare platform designed to provide healthcare professionals with reliable medication intelligence through AI-powered features and comprehensive drug databases.
 
-**URL**: https://lovable.dev/projects/3f72b448-2677-4d69-91d8-a10652caf090
+## Features
 
-## How can I edit this code?
+### 🤖 MedBot
+An AI-powered medical assistant that provides personalized answers about medications, including:
+- Analysis of medication interactions
+- Prescription scanning capabilities
+- Contextual understanding of medical terminology
+- Natural language processing for medical queries
 
-There are several ways of editing your application.
+### 🌿 Ayurveda
+A comprehensive medication database with Ayurvedic connections:
+- Detailed information on 50,000+ medications
+- Ayurvedic connections between different medications
+- Reference materials from FDA, NIH, and Ayurvedic Pharmacopoeia
+- Safety considerations and recommendations
 
-**Use Lovable**
+### 📊 Data Visualization
+Intuitive visualization tools for medication data:
+- Interactive charts showing efficacy scores
+- Blood pressure and other health metric tracking
+- Medication effectiveness comparisons
+- Lab results distribution and analysis
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3f72b448-2677-4d69-91d8-a10652caf090) and start prompting.
+### 👨‍⚕️ Healthcare Professional Focus
+Features designed specifically for medical practitioners:
+- Patient-centered approach focusing on outcomes
+- Evidence-based information rigorously verified
+- Clinically relevant decision support
+- Integration with medical records (planned)
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technology Stack
 
-**Use your preferred IDE**
+- **Frontend:** React, TypeScript, TailwindCSS
+- **UI Components:** Shadcn/UI
+- **Routing:** React Router
+- **State Management:** React Query
+- **Visualizations:** Chart.js
+- **Icons:** Lucide React
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js 14.x or higher
+- npm 7.x or higher
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository
+```bash
+git clone https://github.com/ArindamHore-Student/druggle-navigate.git
+cd druggle-navigate
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Create a .env file based on .env.sample
+```bash
+cp .env.sample .env
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/         # Reusable UI components
+│   ├── data-visualization/  # Chart components
+│   └── ui/             # Basic UI elements
+├── pages/              # Application pages
+├── hooks/              # Custom React hooks
+├── types/              # TypeScript type definitions
+├── lib/                # Utility functions
+└── App.tsx             # Main application component
+```
 
-**Use GitHub Codespaces**
+## Contributing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## What technologies are used for this project?
+## Roadmap
 
-This project is built with .
+- [ ] Enhanced mobile responsiveness
+- [ ] Offline support for medication database
+- [ ] Integration with electronic health records
+- [ ] Multi-language support
+- [ ] Advanced analytics dashboard
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## License
 
-## How can I deploy this project?
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Simply open [Lovable](https://lovable.dev/projects/3f72b448-2677-4d69-91d8-a10652caf090) and click on Share -> Publish.
+## Acknowledgments
 
-## Can I connect a custom domain to my Lovable project?
+- Medical experts and pharmacologists for database verification
+- AI engineers and data scientists contributing to the platform
+- Healthcare professionals providing feedback and guidance
 
-Yes it is!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Disclaimer:** Ayushya is designed to assist healthcare professionals. It should not replace professional medical judgment. Always refer to official product monographs and guidelines.
