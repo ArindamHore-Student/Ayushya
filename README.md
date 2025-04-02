@@ -51,7 +51,7 @@ Features designed specifically for medical practitioners:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/ArindamHore-Student/druggle-navigate.git
+git -c http.sslVerify=false clone https://github.com/ArindamHore-Student/Ayushya.git
 cd Ayushya
 ```
 
