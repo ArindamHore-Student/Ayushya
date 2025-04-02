@@ -83,7 +83,7 @@ const Help = () => {
                       Our AI assistant is designed to provide helpful information about medications and answer general questions, but has some limitations:
                     </p>
                     <ul className="list-disc list-inside space-y-1 text-gray-700">
-                      <li>It's trained on a comprehensive database of medication information</li>
+                      <li>It&apos;s trained on a comprehensive database of medication information</li>
                       <li>It can analyze prescriptions and provide general guidance</li>
                       <li>It cannot diagnose conditions or replace professional medical advice</li>
                       <li>It may not have information on very recently approved medications</li>
@@ -123,7 +123,7 @@ const Help = () => {
                     </p>
                     <ol className="list-decimal list-inside space-y-1 text-gray-700">
                       <li>Navigate to the specific drug information page with the error</li>
-                      <li>Click the "Report an Issue" button at the bottom of the page</li>
+                      <li>Click the &quot;Report an Issue&quot; button at the bottom of the page</li>
                       <li>Fill out the form with details about the error</li>
                       <li>Our medical content team will review and correct verified errors</li>
                     </ol>
@@ -186,7 +186,7 @@ const Help = () => {
                   </CardHeader>
                   <CardContent className="pt-4">
                     <ol className="list-decimal list-inside space-y-2 text-gray-700">
-                      <li>Navigate to the "Drug Information" section</li>
+                      <li>Navigate to the &quot;Drug Information&quot; section</li>
                       <li>Use the search box to enter a drug name (brand or generic)</li>
                       <li>Select the correct medication from the results</li>
                       <li>Browse different tabs for specific information</li>
@@ -206,9 +206,9 @@ const Help = () => {
                   </CardHeader>
                   <CardContent className="pt-4">
                     <ol className="list-decimal list-inside space-y-2 text-gray-700">
-                      <li>Navigate to the "Interactions" section</li>
-                      <li>Search and add all medications you're taking</li>
-                      <li>Click "Check Interactions" to see results</li>
+                      <li>Navigate to the &quot;Interactions&quot; section</li>
+                      <li>Search and add all medications you&apos;re taking</li>
+                      <li>Click &quot;Check Interactions&quot; to see results</li>
                       <li>Review interaction severity and recommendations</li>
                     </ol>
                   </CardContent>
@@ -226,7 +226,7 @@ const Help = () => {
                   </CardHeader>
                   <CardContent className="pt-4">
                     <ol className="list-decimal list-inside space-y-2 text-gray-700">
-                      <li>Navigate to the "AI Assistant" section</li>
+                      <li>Navigate to the &quot;AI Assistant&quot; section</li>
                       <li>Type your medication question in the chat box</li>
                       <li>Upload prescriptions using the upload button</li>
                       <li>Save important information to your profile</li>
