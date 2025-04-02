@@ -52,7 +52,7 @@ Features designed specifically for medical practitioners:
 1. Clone the repository
 ```bash
 git clone https://github.com/ArindamHore-Student/druggle-navigate.git
-cd druggle-navigate
+cd Ayushya
 ```
 
 2. Install dependencies
