@@ -14,7 +14,9 @@ import {
   Edit, 
   AlertTriangle,
   Share2,
-  ShieldCheck // Added the correct icon import
+  ShieldCheck,
+  Search,
+  MessageSquare // Adding both Search and MessageSquare icons that are used in the file
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
