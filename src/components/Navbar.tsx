@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Search, User, Pill } from 'lucide-react';
@@ -13,10 +12,10 @@ const Navbar = () => {
   
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'Drug Information', href: '/drug-info' },
-    { name: 'Interactions', href: '/interactions' },
-    { name: 'AI Assistant', href: '/ai-assistant' },
+    { name: 'MedBot', href: '/ai-assistant' },
+    { name: 'Ayurveda', href: '/ayurveda' },
     { name: 'Help', href: '/help' },
+    { name: 'About', href: '/about' },
   ];
 
   const handleSearch = (e: React.FormEvent) => {
@@ -32,7 +31,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <Pill className="h-8 w-8 text-medical-600" />
-              <span className="ml-2 text-xl font-bold text-medical-700">DruggleMed</span>
+              <span className="ml-2 text-xl font-bold text-medical-700">Ayushya</span>
             </Link>
           </div>
           

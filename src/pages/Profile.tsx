@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { 
   User, 
@@ -42,7 +41,7 @@ const mockUser = {
   ],
   recentHistory: [
     { id: "1", type: "search", content: "Searched for Metformin side effects", date: "2023-08-15" },
-    { id: "2", type: "chat", content: "AI Assistant conversation about drug interactions", date: "2023-08-14" },
+    { id: "2", type: "chat", content: "MedBot conversation about Ayurveda", date: "2023-08-14" },
     { id: "3", type: "prescription", content: "Uploaded prescription from Dr. Smith", date: "2023-08-10" }
   ]
 };

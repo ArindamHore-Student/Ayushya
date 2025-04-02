@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Pill, Mail, Phone, MapPin, Shield } from 'lucide-react';
@@ -29,13 +28,13 @@ const Footer = () => {
                 <Link to="/" className="text-sm text-gray-600 hover:text-medical-600">Home</Link>
               </li>
               <li>
-                <Link to="/drug-info" className="text-sm text-gray-600 hover:text-medical-600">Drug Information</Link>
+                <Link to="/ai-assistant" className="text-sm text-gray-600 hover:text-medical-600">MedBot</Link>
               </li>
               <li>
-                <Link to="/interactions" className="text-sm text-gray-600 hover:text-medical-600">Drug Interactions</Link>
+                <Link to="/ayurveda" className="text-sm text-gray-600 hover:text-medical-600">Ayurveda</Link>
               </li>
               <li>
-                <Link to="/ai-assistant" className="text-sm text-gray-600 hover:text-medical-600">AI Assistant</Link>
+                <Link to="/about" className="text-sm text-gray-600 hover:text-medical-600">About</Link>
               </li>
             </ul>
           </div>
@@ -68,7 +67,7 @@ const Footer = () => {
             <ul className="mt-4 space-y-2">
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-medical-500 mr-2" />
-                <span className="text-sm text-gray-600">support@drugglemed.com</span>
+                <span className="text-sm text-gray-600">support@ayushya.com</span>
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-medical-500 mr-2" />
@@ -84,7 +83,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-gray-200">
           <p className="text-sm text-gray-500 text-center">
-            © {currentYear} DruggleMed. All rights reserved. Not intended as a substitute for professional medical advice.
+            © {currentYear} Ayushya. All rights reserved. Not intended as a substitute for professional medical advice.
           </p>
         </div>
       </div>

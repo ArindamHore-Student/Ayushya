@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Search, ChevronDown, HelpCircle, MessageSquare, Pill, User, AlertTriangle, Heart, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -76,24 +75,20 @@ const Help = () => {
                   </AccordionContent>
                 </AccordionItem>
                 
-                <AccordionItem value="item-2">
-                  <AccordionTrigger>How accurate is the AI assistant?</AccordionTrigger>
+                <AccordionItem value="accuracy">
+                  <AccordionTrigger>How accurate is the MedBot?</AccordionTrigger>
                   <AccordionContent>
-                    <p className="mb-2">
-                      Our AI assistant is designed to provide helpful information about medications and answer general questions, but has some limitations:
+                    <p className="mb-3">
+                      Our MedBot is designed to provide helpful information about medications and answer general questions, but has some limitations:
                     </p>
-                    <ul className="list-disc list-inside space-y-1 text-gray-700">
-                      <li>It&apos;s trained on a comprehensive database of medication information</li>
-                      <li>It can analyze prescriptions and provide general guidance</li>
-                      <li>It cannot diagnose conditions or replace professional medical advice</li>
-                      <li>It may not have information on very recently approved medications</li>
+                    <ul className="list-disc pl-5 space-y-1 mb-3">
+                      <li>It's trained on medical literature and drug information up to its last update</li>
+                      <li>It cannot access your personal health records or make personalized recommendations</li>
+                      <li>It may not be aware of very recent drug approvals or research findings</li>
                     </ul>
-                    <Alert className="mt-3 bg-yellow-50 border-yellow-200">
-                      <AlertTriangle className="h-4 w-4 text-yellow-600" />
-                      <AlertDescription className="text-yellow-700 text-sm">
-                        Always verify important medical information with healthcare professionals. The AI assistant is a tool to help you understand medications better, not a replacement for medical care.
-                      </AlertDescription>
-                    </Alert>
+                    <p>
+                      Always verify important medical information with healthcare professionals. The MedBot is a tool to help you understand medications better, not a replacement for medical care.
+                    </p>
                   </AccordionContent>
                 </AccordionItem>
                 
@@ -145,13 +140,13 @@ const Help = () => {
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                           <li>Basic drug information lookup</li>
                           <li>Simple interaction checks</li>
-                          <li>Limited AI assistant usage</li>
+                          <li>Limited MedBot usage</li>
                         </ul>
                       </div>
                       <div>
                         <h4 className="font-medium">Premium Features ($4.99/month):</h4>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
-                          <li>Unlimited AI assistant usage</li>
+                          <li>Unlimited MedBot usage</li>
                           <li>Advanced medication tracking and reminders</li>
                           <li>Detailed interaction reports</li>
                           <li>Prescription history storage</li>
@@ -201,15 +196,15 @@ const Help = () => {
                   <CardHeader className="bg-gray-50 border-b">
                     <div className="flex items-center">
                       <AlertTriangle className="h-5 w-5 mr-2 text-medical-600" />
-                      <CardTitle className="text-lg">Checking Drug Interactions</CardTitle>
+                      <CardTitle className="text-lg">Checking Ayurveda</CardTitle>
                     </div>
                   </CardHeader>
                   <CardContent className="pt-4">
                     <ol className="list-decimal list-inside space-y-2 text-gray-700">
-                      <li>Navigate to the &quot;Interactions&quot; section</li>
+                      <li>Navigate to the {'"Ayurveda"'} section</li>
                       <li>Search and add all medications you&apos;re taking</li>
-                      <li>Click &quot;Check Interactions&quot; to see results</li>
-                      <li>Review interaction severity and recommendations</li>
+                      <li>Click {'"Check Ayurveda"'} to see results</li>
+                      <li>Review Ayurveda connections and recommendations</li>
                     </ol>
                   </CardContent>
                   <CardFooter className="border-t pt-4">
@@ -221,15 +216,15 @@ const Help = () => {
                   <CardHeader className="bg-gray-50 border-b">
                     <div className="flex items-center">
                       <MessageSquare className="h-5 w-5 mr-2 text-medical-600" />
-                      <CardTitle className="text-lg">Using the AI Assistant</CardTitle>
+                      <CardTitle className="text-lg">Using the MedBot</CardTitle>
                     </div>
                   </CardHeader>
                   <CardContent className="pt-4">
                     <ol className="list-decimal list-inside space-y-2 text-gray-700">
-                      <li>Navigate to the &quot;AI Assistant&quot; section</li>
+                      <li>Navigate to the {"MedBot"} section</li>
                       <li>Type your medication question in the chat box</li>
-                      <li>Upload prescriptions using the upload button</li>
-                      <li>Save important information to your profile</li>
+                      <li>Review the information provided</li>
+                      <li>Ask follow-up questions for clarification</li>
                     </ol>
                   </CardContent>
                   <CardFooter className="border-t pt-4">
@@ -313,7 +308,7 @@ const Help = () => {
                     <div className="mt-3 p-3 bg-gray-50 rounded-md">
                       <p className="text-sm font-medium">Premium Benefits:</p>
                       <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
-                        <li>Unlimited AI assistant usage</li>
+                        <li>Unlimited MedBot usage</li>
                         <li>Advanced medication management</li>
                         <li>Comprehensive interaction reports</li>
                         <li>Prescription history storage</li>
