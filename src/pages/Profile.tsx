@@ -13,7 +13,8 @@ import {
   Trash2, 
   Edit, 
   AlertTriangle,
-  Share2
+  Share2,
+  ShieldCheck // Added the correct icon import
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -192,7 +193,7 @@ const Profile = () => {
                       </Button>
                       <Button variant="outline" className="w-full flex items-center justify-between">
                         <div className="flex items-center">
-                          <Shield className="mr-2 h-4 w-4" />
+                          <ShieldCheck className="mr-2 h-4 w-4" />
                           Privacy Settings
                         </div>
                         <span>&rarr;</span>
